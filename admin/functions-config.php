@@ -489,7 +489,7 @@ if ( !class_exists( "Redux_Framework_wpauthbox_config" ) ) {
 	            // TYPICAL -> Change these values as you need/desire
 				'opt_name'          	=> 'wpautbox_lite', // This is where your data is stored in the database and also becomes your global variable name.
 				'display_name'			=> __('WP Author Box Lite','wpautbox'), // Name that appears at the top of your panel
-				'display_version'		=> '1.0', // Version that appears at the top of your panel
+				'display_version'		=> '1.2', // Version that appears at the top of your panel
 				'menu_type'          	=> 'menu', //Specify if the admin menu should appear or not. Options: menu or submenu (Under appearance only)
 				'allow_sub_menu'     	=> true, // Show the sections below the admin menu item or not
 				'menu_title'			=> __( 'Author Box Lite', 'wpautbox' ),

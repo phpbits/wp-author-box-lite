@@ -30,9 +30,9 @@ class wpautbox_display{
 
 		wp_register_style(
             'wpautbox-elusive-icon',
-            plugins_url( 'includes/ReduxFramework/ReduxCore/assets/css/vendor/elusive-icons/elusive-webfont.css' , dirname(__FILE__) ),
+            plugins_url( 'includes/ReduxFramework/ReduxCore/assets/css/vendor/elusive-icons/elusive-icons.css' , dirname(__FILE__) ),
             array(),
-            '',
+            '' ,
             'all'
         );
 
@@ -40,7 +40,7 @@ class wpautbox_display{
             'wpautbox-elusive-icon-ie7',
             plugins_url( 'includes/ReduxFramework/ReduxCore/assets/css/vendor/elusive-icons/elusive-webfont-ie7.css' , dirname(__FILE__) ),
             array(),
-            '',
+            plugins_url( 'includes/ReduxFramework/ReduxCore/assets/css/vendor/elusive-icons/elusive-webfont-ie7.css' , dirname(__FILE__) ) ,
             'all'
         );
 
@@ -62,7 +62,7 @@ class wpautbox_display{
 		wp_enqueue_script('jquery-wpautbox-tab');
 		wp_enqueue_script('jquery-wpautbox-pro');
 		wp_enqueue_style( 'wpautbox-elusive-icon' );
-		wp_enqueue_style( 'wpautbox-elusive-icon-ie7' );
+		// wp_enqueue_style( 'wpautbox-elusive-icon-ie7' );
 	}
 
 	function build_content($content){
